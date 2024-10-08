@@ -1,0 +1,3 @@
+The OCU Clinics MentCare project is a web platform designed to make it easier for patients to book appointments with doctors at OCU Clinics. It uses HTML, CSS, and JavaScript to create a user-friendly system that lets patients quickly choose doctors and pick available time slots. This helps reduce waiting times and the need for manual scheduling, making it easy for patients to get the care they need.
+The main goal is to provide a smooth process where patients can see which doctors are available, pick a suitable time, and confirm their appointments with just a few clicks. The system is also responsive, meaning it works well on laptops, tablets, and smartphones. Overall, it improves the patient experience and helps clinics manage schedules more efficiently.
+
