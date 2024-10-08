@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocular Care | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h1>Welcome to OCU MentCare</h1>
+            <p>Your vision is our priority. Book an appointment today!</p>
+            <button onclick="window.location.href='index.html#appointment'">Book Appointment</button>
+        </div>
+    </section>
+
+    <section id="appointment">
+        <div class="container">
+            <h2>Book Your Appointment</h2>
+            <form id="appointmentForm">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" name="time" required>
+
+                <label for="notes">Additional Notes:</label>
+                <textarea id="notes" name="notes"></textarea>
+
+                <button type="submit">Book Appointment</button>
+            </form>
+            <p id="confirmationMessage"></p>
+        </div>
+    </section>
+
+    <script src="Node.js"></script>
+</body>
+</html
